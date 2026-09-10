@@ -150,4 +150,8 @@ public class AppUser {
     protected void onUpdate() {
         updatedAt = LocalDateTime.now();
     }
+
+    public String getUsername() {
+        return email != null ? email : (fullName != null ? fullName : "User");
+    }
 }
