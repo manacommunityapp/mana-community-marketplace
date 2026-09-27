@@ -1,6 +1,6 @@
 package com.manacommunity.api.marketplace.entity;
 
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.user.model.AppUser;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -52,3 +52,4 @@ public class ListingReview {
         updatedAt = LocalDateTime.now();
     }
 }
+

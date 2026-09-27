@@ -1,5 +1,6 @@
 package com.manacommunity.api.marketplace.repository;
 
+import com.manacommunity.common.model.Community;
 import com.manacommunity.api.marketplace.entity.Listing;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -24,3 +25,4 @@ public interface ListingRepository extends JpaRepository<Listing, Long> {
                                     @Param("status") Listing.ListingStatus status,
                                     Pageable pageable);
 }
+

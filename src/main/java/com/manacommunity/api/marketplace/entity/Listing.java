@@ -1,7 +1,7 @@
 package com.manacommunity.api.marketplace.entity;
 
-import com.manacommunity.api.model.Community;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.model.Community;
+import com.manacommunity.common.user.model.AppUser;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -90,3 +90,4 @@ public class Listing {
     public enum TransactionMode { CHAT_ONLY, CHAT_CALL, IN_APP_PAYMENT }
     public enum ListingVisibility { COMMUNITY, NEARBY }
 }
+

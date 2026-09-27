@@ -1,14 +1,14 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.CategoryRequest;
 import com.manacommunity.api.marketplace.dto.CategoryResponse;
 import com.manacommunity.api.marketplace.entity.MarketplaceCategory;
 import com.manacommunity.api.marketplace.repository.MarketplaceCategoryRepository;
-import com.manacommunity.api.model.Community;
-import com.manacommunity.api.security.AuditAction;
-import com.manacommunity.api.security.AuditModule;
-import com.manacommunity.api.security.AuditService;
+import com.manacommunity.common.model.Community;
+import com.manacommunity.common.enums.AuditAction;
+import com.manacommunity.common.enums.AuditModule;
+import com.manacommunity.common.security.AuditService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -118,3 +118,5 @@ public class CategoryService {
                 .build();
     }
 }
+
+

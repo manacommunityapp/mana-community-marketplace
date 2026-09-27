@@ -1,17 +1,17 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.DuplicateResourceException;
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.DuplicateResourceException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.WishlistResponse;
 import com.manacommunity.api.marketplace.entity.Listing;
 import com.manacommunity.api.marketplace.entity.ListingImage;
 import com.manacommunity.api.marketplace.entity.Wishlist;
 import com.manacommunity.api.marketplace.repository.ListingRepository;
 import com.manacommunity.api.marketplace.repository.WishlistRepository;
-import com.manacommunity.api.security.AuditAction;
-import com.manacommunity.api.security.AuditModule;
-import com.manacommunity.api.security.AuditService;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.enums.AuditAction;
+import com.manacommunity.common.enums.AuditModule;
+import com.manacommunity.common.security.AuditService;
+import com.manacommunity.common.user.model.AppUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -88,3 +88,5 @@ public class WishlistService {
                 .build();
     }
 }
+
+

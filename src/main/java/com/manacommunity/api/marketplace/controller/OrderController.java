@@ -3,8 +3,8 @@ package com.manacommunity.api.marketplace.controller;
 import com.manacommunity.api.marketplace.dto.OrderRequest;
 import com.manacommunity.api.marketplace.dto.OrderResponse;
 import com.manacommunity.api.marketplace.service.OrderService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -83,3 +83,4 @@ public class OrderController {
         return ResponseEntity.ok().build();
     }
 }
+

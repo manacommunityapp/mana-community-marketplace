@@ -3,8 +3,8 @@ package com.manacommunity.api.marketplace.controller;
 import com.manacommunity.api.marketplace.dto.CategoryRequest;
 import com.manacommunity.api.marketplace.dto.CategoryResponse;
 import com.manacommunity.api.marketplace.service.CategoryService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -64,3 +64,4 @@ public class CategoryController {
         return ResponseEntity.ok().build();
     }
 }
+

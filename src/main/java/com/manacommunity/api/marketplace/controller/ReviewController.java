@@ -3,8 +3,8 @@ package com.manacommunity.api.marketplace.controller;
 import com.manacommunity.api.marketplace.dto.ReviewRequest;
 import com.manacommunity.api.marketplace.dto.ReviewResponse;
 import com.manacommunity.api.marketplace.service.ReviewService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -69,3 +69,4 @@ public class ReviewController {
         return ResponseEntity.ok(reviewService.getSellerRating(sellerId));
     }
 }
+

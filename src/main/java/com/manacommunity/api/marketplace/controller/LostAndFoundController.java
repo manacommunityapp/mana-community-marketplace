@@ -3,8 +3,8 @@ package com.manacommunity.api.marketplace.controller;
 import com.manacommunity.api.marketplace.dto.LostAndFoundRequest;
 import com.manacommunity.api.marketplace.dto.LostAndFoundResponse;
 import com.manacommunity.api.marketplace.service.LostAndFoundService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -79,3 +79,4 @@ public class LostAndFoundController {
         return ResponseEntity.noContent().build();
     }
 }
+
