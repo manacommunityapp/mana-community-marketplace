@@ -1,7 +1,7 @@
 package com.manacommunity.api.marketplace.service;
 
 import com.manacommunity.common.exception.DuplicateResourceException;
-import com.manacommunity.api.exception.InvalidInputException;
+import com.manacommunity.common.exception.InvalidInputException;
 import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.common.exception.UnauthorizedActionException;
 import com.manacommunity.api.marketplace.dto.ReviewRequest;
