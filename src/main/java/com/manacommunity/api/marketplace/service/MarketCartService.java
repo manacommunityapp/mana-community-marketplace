@@ -1,6 +1,6 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.MarketCartDto;
 import com.manacommunity.api.marketplace.entity.MarketCart;
 import com.manacommunity.api.marketplace.entity.MarketCartItem;
@@ -9,7 +9,7 @@ import com.manacommunity.api.marketplace.entity.MarketListingImage;
 import com.manacommunity.api.marketplace.repository.MarketCartItemRepository;
 import com.manacommunity.api.marketplace.repository.MarketCartRepository;
 import com.manacommunity.api.marketplace.repository.MarketListingRepository;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.user.model.AppUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

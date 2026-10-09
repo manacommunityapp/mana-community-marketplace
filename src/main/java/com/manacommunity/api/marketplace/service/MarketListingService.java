@@ -1,15 +1,15 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.ResourceNotFoundException;
-import com.manacommunity.api.exception.UnauthorizedActionException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.UnauthorizedActionException;
 import com.manacommunity.api.marketplace.dto.MarketListingRequest;
 import com.manacommunity.api.marketplace.dto.MarketListingResponse;
 import com.manacommunity.api.marketplace.entity.MarketListing;
 import com.manacommunity.api.marketplace.entity.MarketListingImage;
 import com.manacommunity.api.marketplace.repository.MarketListingImageRepository;
 import com.manacommunity.api.marketplace.repository.MarketListingRepository;
-import com.manacommunity.api.model.Community;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.model.Community;
+import com.manacommunity.common.user.model.AppUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

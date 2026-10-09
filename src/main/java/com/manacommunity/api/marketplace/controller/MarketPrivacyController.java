@@ -2,8 +2,8 @@ package com.manacommunity.api.marketplace.controller;
 
 import com.manacommunity.api.marketplace.entity.MarketDataDeletionRequest;
 import com.manacommunity.api.marketplace.service.MarketPrivacyService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

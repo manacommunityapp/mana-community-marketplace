@@ -1,6 +1,6 @@
 package com.manacommunity.api.marketplace.entity;
 
-import com.manacommunity.api.model.Community;
+import com.manacommunity.common.model.Community;
 import jakarta.persistence.*;
 import lombok.*;
 

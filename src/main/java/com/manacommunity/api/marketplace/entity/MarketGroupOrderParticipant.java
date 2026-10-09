@@ -1,7 +1,7 @@
 package com.manacommunity.api.marketplace.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.user.model.AppUser;
 import jakarta.persistence.*;
 import lombok.*;
 

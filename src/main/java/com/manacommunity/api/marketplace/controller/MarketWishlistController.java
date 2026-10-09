@@ -2,8 +2,8 @@ package com.manacommunity.api.marketplace.controller;
 
 import com.manacommunity.api.marketplace.dto.MarketWishlistResponse;
 import com.manacommunity.api.marketplace.service.MarketWishlistService;
-import com.manacommunity.api.user.model.AppUser;
-import com.manacommunity.api.user.security.UserPrincipal;
+import com.manacommunity.common.user.model.AppUser;
+import com.manacommunity.common.user.security.UserPrincipal;
 import com.manacommunity.api.user.service.LoggedInUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

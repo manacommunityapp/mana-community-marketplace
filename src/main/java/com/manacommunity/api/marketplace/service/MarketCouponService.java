@@ -1,11 +1,11 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.InvalidInputException;
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.InvalidInputException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.MarketCouponDto;
 import com.manacommunity.api.marketplace.entity.MarketCoupon;
 import com.manacommunity.api.marketplace.repository.MarketCouponRepository;
-import com.manacommunity.api.model.Community;
+import com.manacommunity.common.model.Community;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

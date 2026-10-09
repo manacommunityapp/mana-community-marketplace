@@ -1,11 +1,11 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.MarketCategoryRequest;
 import com.manacommunity.api.marketplace.dto.MarketCategoryResponse;
 import com.manacommunity.api.marketplace.entity.MarketListingCategory;
 import com.manacommunity.api.marketplace.repository.MarketCategoryRepository;
-import com.manacommunity.api.model.Community;
+import com.manacommunity.common.model.Community;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

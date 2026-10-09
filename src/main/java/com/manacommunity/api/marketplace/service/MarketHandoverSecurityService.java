@@ -1,13 +1,13 @@
 package com.manacommunity.api.marketplace.service;
 
-import com.manacommunity.api.exception.InvalidInputException;
-import com.manacommunity.api.exception.ResourceNotFoundException;
+import com.manacommunity.common.exception.InvalidInputException;
+import com.manacommunity.common.exception.ResourceNotFoundException;
 import com.manacommunity.api.marketplace.dto.MarketHandoverPassDto;
 import com.manacommunity.api.marketplace.entity.MarketHandoverPass;
 import com.manacommunity.api.marketplace.entity.MarketOrder;
 import com.manacommunity.api.marketplace.repository.MarketHandoverPassRepository;
 import com.manacommunity.api.marketplace.repository.MarketOrderRepository;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.user.model.AppUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -2,7 +2,7 @@ package com.manacommunity.api.marketplace.service;
 
 import com.manacommunity.api.marketplace.entity.MarketDataDeletionRequest;
 import com.manacommunity.api.marketplace.repository.MarketDataDeletionRequestRepository;
-import com.manacommunity.api.user.model.AppUser;
+import com.manacommunity.common.user.model.AppUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
